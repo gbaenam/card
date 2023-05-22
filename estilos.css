@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  row-gap: 30px;
+  max-width: 1430px;
+}
+
+.card {
+  border: 1px solid black;
+}
+
+.card__img {
+  aspect-ratio: 1 / .7;
+  object-fit: cover;
+}
+
+
+/* @media screen and (min-width: 600px) {
+  .item {
+    flex: 25%;
+  }
+} */
+

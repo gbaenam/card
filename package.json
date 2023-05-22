@@ -1,0 +1,28 @@
+{
+  "name": "card",
+  "version": "1.0.0",
+  "description": "Tarjetas responsive con CSS Grid Layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "vercel --prod",
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbaenam/card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbaenam/card/issues"
+  },
+  "homepage": "https://github.com/gbaenam/card#readme",
+  "dependencies": {
+    "vercel": "^29.4.0"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
