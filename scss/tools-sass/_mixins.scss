@@ -34,6 +34,7 @@ $breakpoints: (
     position: relative;
     grid-template-columns: repeat($w,1fr);
     grid-template-rows: repeat($h,1fr);
+    // background-color: red;
 
     &::before {
         content: "";

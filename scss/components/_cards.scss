@@ -1,0 +1,39 @@
+@use '../tools-sass/' as *;
+
+.container {
+  display: grid;
+  row-gap: 2rem;
+  padding: 2rem;
+
+  // display: flex;
+  // flex-wrap: wrap;
+
+}
+
+.card {
+  border: 1px solid red;
+  background-color: #fafbfa;
+
+  flex: 50%;
+
+  &__img {
+    aspect-ratio: 1 / .7;
+    object-fit: cover;
+    object-position: left;
+  }
+
+
+  // &__wrapper-img {
+  //   @include ratio(4,3);
+  // }
+
+  // &__img {
+  //   width: 100%;
+  //   height: 100%;
+  //   object-fit: cover;
+  //   position: absolute;
+  //   object-position: left;
+  // }
+}
+
+

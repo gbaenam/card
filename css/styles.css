@@ -1,3 +1,23 @@
 /* ------------------ base.scss ---------------------- */
+img {
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  border: 1px solid red;
+  background-color: #fafbfa;
+  flex: 50%;
+}
+.card__img {
+  aspect-ratio: 1/0.7;
+  object-fit: cover;
+  object-position: left;
+}
 
 /*# sourceMappingURL=styles.css.map */
