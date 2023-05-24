@@ -1,6 +1,15 @@
 /* ------------------ base.scss ---------------------- */
 body {
   background-color: burlywood;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
 }
 
 img {
@@ -26,7 +35,7 @@ img {
   flex-basis: 280px;
   flex-grow: 1;
   background-color: #fff;
-  padding-bottom: 3rem;
+  padding-bottom: 2.5rem;
 }
 
 .content {
@@ -36,6 +45,7 @@ img {
 }
 
 .card__picture {
+  width: 90%;
   margin: 0 auto;
   background-color: cornflowerblue;
   position: relative;
