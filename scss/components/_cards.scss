@@ -20,23 +20,23 @@
   flex-grow: 1;
   background-color: #fff;
   padding-bottom: 2.5rem;
-}
 
-.content {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  &__content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.card__picture {
-  // width: 90%;
-  margin: 0 auto;
-  background-color: cornflowerblue;
-  position: relative;
-  bottom: 1.5em;
-}
+  &__picture {
+    // width: 90%;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    position: relative;
+    bottom: 1.5em;
+  }
 
-.card__title {
-  margin-bottom: 1rem;
+  &__title {
+    margin-bottom: 1rem;
+  }
 }
 
