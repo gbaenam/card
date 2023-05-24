@@ -1,39 +1,25 @@
 @use '../tools-sass/' as *;
 
 .container {
-  display: grid;
-  row-gap: 2rem;
-  padding: 2rem;
-
-  // display: flex;
-  // flex-wrap: wrap;
-
+  gap: 3rem;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1430px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3.75rem 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-  border: 1px solid red;
-  background-color: #fafbfa;
-
-  flex: 50%;
-
-  &__img {
-    aspect-ratio: 1 / .7;
-    object-fit: cover;
-    object-position: left;
-  }
-
-
-  // &__wrapper-img {
-  //   @include ratio(4,3);
-  // }
-
-  // &__img {
-  //   width: 100%;
-  //   height: 100%;
-  //   object-fit: cover;
-  //   position: absolute;
-  //   object-position: left;
-  // }
+  max-width: 450px;
+  flex-basis: 280px;
+  flex-grow: 1;
 }
+
+
 
 
