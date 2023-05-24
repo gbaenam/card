@@ -5,9 +5,22 @@
 
 // Declaración de los estilos básicos del proyecto.
 
-// body {
-//     background-color: #fafbfa;
-// }
+body {
+    // background-color: burlywood;
+    background-color: #e7e7e7;
+    // background: #abbaab;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    // background: #EFEFBB;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to top, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to top, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    // background: #00416A;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to top, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to top, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 img {
     width: 100%;
