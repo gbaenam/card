@@ -54,6 +54,12 @@ img {
   aspect-ratio: 1/0.7;
   object-position: left;
 }
+.card__logo-caja-social {
+  top: 3px;
+  left: 10px;
+  width: 70%;
+  position: absolute;
+}
 .card__title {
   margin-bottom: 1rem;
 }
