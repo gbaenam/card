@@ -51,11 +51,15 @@ img {
   aspect-ratio: 1/0.7;
   object-position: left;
 }
-.card__logo-caja-social {
+.card__logo-bank {
   top: 3px;
   left: 10px;
   width: 70%;
   position: absolute;
+}
+.card__cibc {
+  top: 5px;
+  width: 35%;
 }
 .card__info {
   display: flex;

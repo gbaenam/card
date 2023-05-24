@@ -41,11 +41,16 @@
     object-position: left;
   }
 
-  &__logo-caja-social {
+  &__logo-bank {
     top: 3px;
     left: 10px;
     width: 70%;
     position: absolute;
+  }
+
+  &__cibc {
+    top: 5px;
+    width: 35%;
   }
 
   &__info {
