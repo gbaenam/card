@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 1430px;
-  min-height: 100vh;
+  // min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
   padding: 3.75rem 0;
@@ -23,12 +23,8 @@
 
   &__content {
     width: 90%;
-    flex-grow: 1;
-    display: flex;
-    // flex-shrink: 1;
     margin-left: auto;
     margin-right: auto;
-    flex-direction: column;
 
     background-color: lightblue;
   }
