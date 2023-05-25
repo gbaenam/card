@@ -44,7 +44,6 @@ img {
   bottom: 1.5em;
   margin: 0 auto;
   position: relative;
-  background-color: cornflowerblue;
 }
 .card__img {
   object-fit: cover;
